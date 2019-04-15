@@ -1,0 +1,26 @@
+{
+	"name": "blizzardwatch-2019",
+	"version": "1.0.0",
+	"description": "Theme for Blizzard Watch",
+	"main": "index.php",
+	"scripts": {
+		"test": "sass lib/dev/scss/main.scss lib/css/main.css && webpack"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://adamholisky@bitbucket.org/adamholisky/blizzardwatch-2019.git"
+	},
+	"author": "Adam Holisky",
+	"license": "ISC",
+	"homepage": "https://bitbucket.org/adamholisky/blizzardwatch-2019#readme",
+	"dependencies": {
+		"bootstrap": "^4.3.1",
+		"jquery": "^3.4.0",
+		"popper.js": "^1.15.0",
+		"webpack": "^4.30.0"
+	},
+	"devDependencies": {
+		"copy-webpack-plugin": "^5.0.2",
+		"webpack-cli": "^3.3.0"
+	}
+}
